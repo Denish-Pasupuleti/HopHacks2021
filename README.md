@@ -1,1 +1,30 @@
-# HopHacks2021
+# Documentation
+
+Made by Denish Pasupuleti, Hamza Asad, Musa Asad
+
+## About
+
+This is a project that takes in credit/debit card information and transforms it in QR Code format that can be used for quick and easy online payments.
+
+## How To Run
+
+1. Make sure to have python installed on your PC.
+2. Install code as ZIP from GitHub repository.
+3. Extract program somewhere on your PC.
+4. Using command prompt, head over to the folder *HopHacksFall2021-master*.
+5. Run the following commands:
+```
+py -m venv venv
+py -m pip install --user virtualenv
+.\venv\Scripts\activate
+```
+6. Install following dependancies:
+```
+pip install flask
+pip install pyqrcode
+pip install pyzbar
+pip install pillow
+pip install pypng
+```
+7. In command prompt **cd** into the *main* directory.
+8. Run `python app.py` to run program!
